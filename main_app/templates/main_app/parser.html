@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<h5>Файл "{{ document }}" успешно загружен,</h5>
+<h5>Введите искомую информацию в ОДНО поле (несколько полей - в разработке):</h5>
+<form method="post" action="{% url 'result_page' %}">
+	{% csrf_token %}
+	{% for field in fields %}
+	<div class="input-group input-group-sm mb-3">
+		<span class="input-group-text" id="inputGroup-sizing-sm">{{ field }}</span>
+		<input name="searching_field" type="text" class="form-control" aria-label="Sizing example input"
+		       aria-describedby="inputGroup-sizing-sm">
+	</div>
+	{% endfor %}
+	<button type="submit"> Найти</button>
+</form>
+{% endblock %}

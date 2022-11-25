@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+{% autoescape off %}
+{{ result_html }}
+{% endautoescape %}
+<form method="get" action="{% url 'save_page' %}">
+	<button type="submit"> Сохранить в базу</button>
+</form>
+{{ success }}
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<h5>Укажите описание и путь к файлу:</h5>
+<form method = "post" enctype="multipart/form-data">
+   {% csrf_token %}
+   {{ form.as_p }}
+   <button type="submit"> Загрузить</button>
+</form>
+{% endblock %}
