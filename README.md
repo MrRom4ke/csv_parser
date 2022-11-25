@@ -12,19 +12,19 @@
 ## How to use
 * Начальный экран <br>
 ![Image alt](https://github.com/MrRom4ke/csv_parser/raw/main/static/Screenshot%20from%202022-11-25%2015-07-35.png)
-* Необходимо ввести описание файла, и путь к файлу, нажать кнопку "Загрзить"
-![](static/Screenshot from 2022-11-25 15-08-10.png)
-* Сообщение об успешной загрузке файла, и получение формы для парсинга по полям загруженного .csv файла
-![](static/Screenshot from 2022-11-25 15-09-05.png)
-* Выгрузка из .csv по заданному значению
-![](static/Screenshot from 2022-11-25 15-09-52.png)
-![](static/Screenshot from 2022-11-25 15-10-08.png)
-* Сообщение об успешной загрузке
-![](static/Screenshot from 2022-11-25 15-10-26.png)
-* Данные из парсинга сохраняются в БД SQLite
-![](static/Screenshot from 2022-11-25 15-11-12.png)
-* Так же загружаемые фалы .csv сохраняются в БД
-![](static/Screenshot from 2022-11-25 15-11-59.png)
+* Необходимо ввести описание файла, и путь к файлу, нажать кнопку "Загрзить" <br>
+![Image alt](https://github.com/MrRom4ke/csv_parser/raw/main/static/Screenshot from 2022-11-25 15-08-10.png)
+* Сообщение об успешной загрузке файла, и получение формы для парсинга по полям загруженного .csv файла <br>
+![Image alt](https://github.com/MrRom4ke/csv_parser/raw/main/static/Screenshot from 2022-11-25 15-09-05.png)
+* Выгрузка из .csv по заданному значению <br>
+![Image alt](https://github.com/MrRom4ke/csv_parser/raw/main/static/Screenshot from 2022-11-25 15-09-52.png)
+![Image alt](https://github.com/MrRom4ke/csv_parser/raw/main/static/Screenshot from 2022-11-25 15-10-08.png)
+* Сообщение об успешной загрузке <br>
+![Image alt](https://github.com/MrRom4ke/csv_parser/raw/main/static/Screenshot from 2022-11-25 15-10-26.png)
+* Данные из парсинга сохраняются в БД SQLite <br>
+![Image alt](https://github.com/MrRom4ke/csv_parser/raw/main/static/Screenshot from 2022-11-25 15-11-12.png)
+* Так же загружаемые фалы .csv сохраняются в БД <br>
+![Image alt](https://github.com/MrRom4ke/csv_parser/raw/main/static/Screenshot from 2022-11-25 15-11-59.png)
 ## Tech Stack
 
 The project is currently running on the following versions:
