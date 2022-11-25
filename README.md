@@ -11,7 +11,7 @@
 
 ## How to use
 * Начальный экран
-![Image alt](static/Screenshot from 2022-11-25 15-07-35.png)
+![Image alt](https://github.com/MrRom4ke/csv_parser/blob/a4df91b3790dfecbc848ac3e7cd3d6a42972e12e/static/Screenshot%20from%202022-11-25%2015-07-35.png)
 * Необходимо ввести описание файла, и путь к файлу, нажать кнопку "Загрзить"
 ![](static/Screenshot from 2022-11-25 15-08-10.png)
 * Сообщение об успешной загрузке файла, и получение формы для парсинга по полям загруженного .csv файла
